@@ -11,7 +11,7 @@ async function data() {
 
   out.forEach((val) => {
     div.innerHTML += `
-    <div>
+    <div class="divvv">
     <h1>${val.fname}</h1>
     <h2>${val.email}</h2>
     </div>`;

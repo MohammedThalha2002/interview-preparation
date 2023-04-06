@@ -59,8 +59,8 @@ app.post("/post-data", async (req, res) => {
       data.nationality,
       data.zipcode,
     ]);
-    console.log(output);
-    res.send(output);
+    console.log("success");
+    res.send("success");
   } catch (error) {
     console.log(error);
     res.status(500).send("error");

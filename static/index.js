@@ -79,8 +79,8 @@ async function postData() {
   await axios
     .post("http://13.233.108.213:5000/post-data", data)
     .then((res) => {
-      console.log(res.data)
-      window.location.href = "/data.html"
+      console.log(res.data);
+      window.location.href = "/data.html";
     })
     .catch((err) => console.log(err));
 }

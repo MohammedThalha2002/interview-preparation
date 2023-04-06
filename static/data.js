@@ -1,7 +1,7 @@
 const div = document.getElementById("data-value");
 
 let out = axios
-  .get("http://localhost:5000/get-data", data)
+  .get("http://13.233.108.213:5000/get-data", data)
   .then((res) => res.data)
   .catch((err) => console.log(err));
 
